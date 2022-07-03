@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 .App {
   text-align: center;
+  scroll-animation: smooth;
 }
 
 .App-logo {
@@ -27,7 +29,40 @@
 .App-link {
   color: #61dafb;
 }
+#nav {
+  background: #181818;
+}
+a {
+  color: #ffff;
+}
 
+#nav .compname {
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+@media (max-width: 640px) {
+  .adventure {
+    font-size: 1.875rem;
+    line-height: 2.1rem;
+  }
+  .join {
+    font-size: 0.775rem;
+  }
+  .subs {
+    font-size: 0.665rem;
+    font-weight: 600;
+  }
+  .inpute {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .cont div {
+    font-size: 0.515rem;
+    width: full;
+    flex-wrap: wrap;
+    whitespace: wrap;
+  }
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
